@@ -26,11 +26,11 @@
   ],
   "Servers": [
     {
-      "Name": "CONECTA4G | PLUS",
+      "Name": "SERVIDOR 1 | PLUS",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "serv1.mvtube.online",
-      "CheckUser": "http://serv1.mvtube.online:5454/checkUser",
+      "ServerIP": "kaiolimalima.xyz",
+      "CheckUser": "http://kaiolimalima.xyz:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
