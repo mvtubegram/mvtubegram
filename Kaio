@@ -39,7 +39,7 @@
   ],
   "Networks": [
     {
-      "Name": "VIVO TLS 02",
+      "Name": "VIVO SSL",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
@@ -49,17 +49,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM PROXY 01",
-      "FLAG": "tim",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "TIM TLS 02",
+      "Name": "TIM SSL 01",
       "FLAG": "tim",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -69,7 +59,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 03",
+      "Name": "TIM SSL 02",
       "FLAG": "tim",
       "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "m.timbancavirtual.com.br",
@@ -79,7 +69,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 04",
+      "Name": "TIM SSL 03",
       "FLAG": "tim",
       "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
@@ -89,7 +79,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 05",
+      "Name": "TIM SSL 04",
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
@@ -99,7 +89,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS 01",
+      "Name": "CLARO SSL 01",
       "FLAG": "claro",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -109,7 +99,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS 02",
+      "Name": "CLARO SSL 02",
       "FLAG": "claro",
       "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "parceirosclaro.com.br",
@@ -119,7 +109,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "OI TLS 02",
+      "Name": "OI SSL",
       "FLAG": "oi",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
