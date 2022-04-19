@@ -1,4 +1,3 @@
-
 {
   "Version": "1.0.1",
   "ReleaseNotes": "",
@@ -30,23 +29,12 @@
       "Name": "CONECTA4G | PLUS",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "exemplo01.dominio.xyz",
-      "CheckUser": "http://exemplo01.dominio.xyz:5454/checkUser",
+      "ServerIP": "serv1.mvtube.online",
+      "CheckUser": "http://serv1.mvtube.online:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    },
-    {
-      "Name": "PREMIUM 02 | PLUS",
-      "TYPE": "free",
-      "FLAG": "br.png",
-      "ServerIP": "exemplo02.dominio.xyz",
-      "CheckUser": "http://exemplo02.dominio.xyz:8989/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "kirito",
-      "PASS": "1234"
     }
   ],
   "Networks": [
