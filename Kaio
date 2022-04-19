@@ -31,7 +31,7 @@
       "FLAG": "br.png",
       "ServerIP": "kaiolimalima.xyz",
       "CheckUser": "http://kaiolimalima.xyz:5454/checkUser",
-      "ServerPort": "22",
+      "ServerPort": "443",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
