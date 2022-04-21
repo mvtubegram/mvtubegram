@@ -1,11 +1,11 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ReleaseNotes": "NOVAS CONFIGURAÇŌES",
   "UrlUpdate": "https://raw.githubusercontent.com/mvtubegram/mvtubegram/main/README.md",
   "Sms": "xxxx",
   "EmailFeedback": "mvtubegram@gmail.com",
   "UrlContato": "xxx",
-  "UrlTermos": "xxx",
+  "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
   "CheckUser": "true",
   "Udp": [
     {
@@ -48,7 +48,7 @@
       "PASS": ""
     },
     {
-      "Name": "SERVIDOR e | MVTUBEGRAM5G,
+      "Name": "SERVIDOR 3 | MVTUBEGRAM5G,
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "serve.mvtubenet.mvtunet.online",
