@@ -9,12 +9,6 @@
   "CheckUser": "true",
   "Udp": [
     {
-      "Porta": "7100"
-    },
-    {
-      "Porta": "7200"
-    },
-    {
       "Porta": "7300"
     },
     {
@@ -22,6 +16,12 @@
     },
     {
       "Porta": "7500"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7700"
     }
   ],
   "Servers": [
@@ -31,6 +31,28 @@
       "FLAG": "br.png",
       "ServerIP": "serv1.mvtubenet.online",
       "CheckUser": "http://serv1.mvtubenet.online:5454/checkUser",
+      "ServerPort": "443",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR 2 | MVTUBEGRAM5G,
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "serv2.mvtubenet.online",
+      "CheckUser": "http://serv2.mvtubenet.online:8989/checkUser",
+      "ServerPort": "443",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR 3 | MVTUBEGRAM5G,
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "serv3.mvtubenet.online",
+      "CheckUser": "http://serv3.mvtubenet.online:8989/checkUser",
       "ServerPort": "443",
       "SSLPort": "443",
       "USER": "",
