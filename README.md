@@ -1,7 +1,7 @@
 {
   "Version": "1.0.1",
   "ReleaseNotes": "NOVAS CONFIGURAÇŌES",
-  "UrlUpdate": "https://bitbin.it/XHS0zOli/raw/",
+  "UrlUpdate": "https://raw.githubusercontent.com/mvtubegram/mvtubegram/main/README.md",
   "Sms": "xxxx",
   "EmailFeedback": "mvtubegram@gmail.com",
   "UrlContato": "xxx",
